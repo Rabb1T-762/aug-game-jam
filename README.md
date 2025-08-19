@@ -30,7 +30,7 @@ Let your imagination run wild—make it funny, challenging, or totally absurd. W
 Build a 2D platformer where the player’s goal is to travel from a clear starting point to a finish—by any creative means you invent!
 
 ### Dates
-> 19 August 2025 – 9 September 2025
+> 19 August 2025 – September Game Dev Meetup (DATE TBD)
 
 Be on the lookout for announcements and updates on Discord!
 
