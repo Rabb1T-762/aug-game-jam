@@ -136,7 +136,7 @@ Single Level or Multi-Level? Your call.
 - Single Level: When the goal triggers, show a congratulations screen or restart.
 - Multi-Level: Have multi PointA - PointB stages. 
 
-## 3. 🌍 World Building (Graham)
+## 3. 🌍 World Building
 
 🎥 Tutorial reference: [Watch the relevant part of the video](https://www.youtube.com/watch?v=LOhfqjmasi0&t)
 
@@ -247,7 +247,7 @@ If you wish to take a completely different approach with your physics, be sure t
 
 [Physics Tutorials](https://docs.godotengine.org/en/stable/tutorials/physics/index.html)
 
-## 5. 🎨 Animations, Assets, & Sprites (Divan)
+## 5. 🎨 Animations, Assets, & Sprites 
 Even though adding a sprite or asset in Godot can be as simple as dragging an imported image onto a node, since this project already has a state machine implemented, the sprites and animations on entities are also handled through the state machine.
 
 If you look at the player scene, you'll notice an AnimatedSprite2D attached to the Player node. This AnimatedSprite2D has different animation frames for each of the possible states on the player.
