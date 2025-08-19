@@ -30,7 +30,7 @@ Let your imagination run wild—make it funny, challenging, or totally absurd. W
 Build a 2D platformer where the player’s goal is to travel from a clear starting point to a finish—by any creative means you invent!
 
 ### Dates
-> 12 August 2025 – 9 September 2025
+> 19 August 2025 – 9 September 2025
 
 Be on the lookout for announcements and updates on Discord!
 
@@ -166,7 +166,7 @@ A basic movement script with a state machine is already attached so movement can
 There are also basic animations attached. 
 
 #### Step #2: Building The Map
-To add your map you use TileMapLayer nodes for each layer you want. I reccommend adding a node2D called something like "TileMaps" and adding the TileMapLayer nodes as children for organisation. 
+To add your map you use TileMapLayer nodes for each layer you want. I recommend adding a node2D called something like "TileMaps" and adding the TileMapLayer nodes as children for organization. 
 
 In the YouTube tutorial they use a TileMap node. You can still do this and follow along with the tutorial, but the TileMap is deprecated and you will have a warning next to the node stating that you should extract your TileMap into separate TileMapLayer nodes. 
 
@@ -176,19 +176,19 @@ If you want to use your own tile set the process is the same.
 
 Add a TileMapLayer node 
 
-Select the node: In the Inspector you'll see a property labled Tile Set. 
+Select the node: In the Inspector you'll see a property labeled Tile Set. 
 Click the little arrow and from the dropdown select "New TileSet"
 
 If you click on the TileSet you just created it will expand and show it's properties. If you're using your own tile set you may have to configure your grid size to match your tile set. 
-Check the bookmark labled "World Building 1.0" in the tutorial to see it done. 
+Check the bookmark labeled "World Building 1.0" in the tutorial to see it done. 
 
-Now in the bottom window of Godot you should see a toolbar Here you should see the lables "TileMap" and "TileSet" 
+Now in the bottom window of Godot you should see a toolbar Here you should see the labels "TileMap" and "TileSet" 
 
 This is where you manage your tile set.
 Here click on the "Tile Set" tab and drag the tile set you want to load into the window. 
 Godot will do its best to detect your tiles and set it up. 
-You can manually remove tiles by clicking the erasor icon. 
-You can create larger tiles by shift clicking and draging. 
+You can manually remove tiles by clicking the eraser icon. 
+You can create larger tiles by shift clicking and dragging. 
 
 Next you'll want to create the physics layer mask for your tiles. 
 To do this click on your TileMapLayer and then click on the TileSet property to expand the options in the inspector. 
